@@ -74,7 +74,6 @@ SRC_URI:append:versal = " \
 
 SRC_URI:append = " \
 		file://zynq.dtsi \
-		file://pl-delete-nodes-zynq-pluto-sdr-revb.dtsi \
 		file://pl-delete-nodes-zynq-pluto-sdr-revb-base.dtsi \
 		file://zynq-pluto-sdr.dtsi \
 		file://zynq-pluto-sdr-revb.dtsi \

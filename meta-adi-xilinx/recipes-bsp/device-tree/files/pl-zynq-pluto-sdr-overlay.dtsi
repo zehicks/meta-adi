@@ -3,11 +3,11 @@
 #include <dt-bindings/interrupt-controller/irq.h>
 
 / {
-	fragment@2 {
+	fragment@1 {
 		target = <&amba>;
-		overlay2: __overlay__ {
-			#address-cells = <1>;
-			#size-cells = <1>;
+		overlay1: __overlay__ {
+			#address-cells = <0x1>;
+			#size-cells = <0x1>;
 
 			axi_i2c0: i2c@41600000 {
 				compatible = "xlnx,axi-iic-1.02.a", "xlnx,xps-iic-2.00.a";
