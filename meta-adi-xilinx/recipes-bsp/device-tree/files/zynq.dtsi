@@ -12,7 +12,7 @@
 };
 
 &gem0 {
-	status = "okay";
+	status = "disabled";
 };
 
 &clkc {
@@ -29,5 +29,5 @@
 };
 
 &sdhci0 {
-	status = "okay";
+	status = "disabled";
 };

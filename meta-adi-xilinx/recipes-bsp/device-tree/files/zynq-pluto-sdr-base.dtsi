@@ -50,7 +50,7 @@
 
 &usb0 {
     xlnx,phy-reset-gpio = <&gpio0 52 0>;
-	dr_mode = "otg";
+	dr_mode = "host";
     status = "okay";
 };
 
