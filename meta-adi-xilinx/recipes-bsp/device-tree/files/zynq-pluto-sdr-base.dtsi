@@ -36,7 +36,10 @@
         view-port = <0x0170>;
         drv-vbus;
     };
-
+	
+	xlnk {
+		compatible = "xlnx,xlnk-1.0";
+	};
 };
 
 &sdhci0 {
